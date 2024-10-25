@@ -102,23 +102,21 @@
 // int main()
 // {
 //     int n = 4;
-    
+
 //     for (int i = 0; i < n; i++)
 //     {
-        
+
 //         for (int j = 0; j < i + 1; j++)
-//         {    
+//         {
 //             cout << i+1 << " ";
-            
-           
+
 //         }
 //         cout << endl;
 //     }
 //     return 0;
 // }
 
-
-//pattern-7
+// pattern-7
 
 // #include <iostream>
 
@@ -129,12 +127,12 @@
 //     char ch = 'A';
 //     for (int i = 0; i < n; i++)
 //     {
-        
+
 //         for (int j = 0; j < i + 1; j++)
-//         {    
-            
+//         {
+
 //             cout << ch << " ";
-           
+
 //         }
 //         ch++;
 //         cout << endl;
@@ -142,8 +140,7 @@
 //     return 0;
 // }
 
-
-//pattern-8
+// pattern-8
 
 // #include <iostream>
 
@@ -154,22 +151,20 @@
 //     int num = 1;
 //     for (int i = 0; i < n; i++)
 //     {
-        
+
 //         for (int j = 0; j < i + 1; j++)
-//         {    
-            
+//         {
+
 //             cout << j+1 << " ";
-            
-           
+
 //         }
-        
+
 //         cout << endl;
 //     }
 //     return 0;
 // }
 
-
-//pattern-9
+// pattern-9
 
 // #include <iostream>
 
@@ -177,25 +172,23 @@
 // int main()
 // {
 //     int n = 5;
-    
+
 //     for (int i = 0; i < n; i++)
 //     {
-        
+
 //         for (int j = i+1; j > 0; j--)
-//         {    
-            
+//         {
+
 //             cout << j << " ";
-            
-           
+
 //         }
-        
+
 //         cout << endl;
 //     }
 //     return 0;
 // }
 
-
-//pattern-10
+// pattern-10
 
 // #include <iostream>
 
@@ -204,26 +197,24 @@
 // {
 //     int n = 4;
 //     int num = 1;
-    
+
 //     for (int i = 0; i < n; i++)
 //     {
-        
+
 //         for (int j = 0; j < i+1; j++)
-//         {    
-            
+//         {
+
 //             cout << num << " ";
 //             num++;
-            
-           
+
 //         }
-        
+
 //         cout << endl;
 //     }
 //     return 0;
 // }
 
-
-//pattern-11
+// pattern-11
 
 // #include <iostream>
 
@@ -232,26 +223,24 @@
 // {
 //     int n = 4;
 //     char ch = 'A';
-    
+
 //     for (int i = 0; i < n; i++)
 //     {
-           
+
 //         for (int j = 0; j < i+1; j++)
-//         {    
-            
+//         {
+
 //             cout << ch << " ";
 //             ch++;
-            
-           
+
 //         }
-        
+
 //         cout << endl;
 //     }
 //     return 0;
 // }
 
-
-//pattern-12
+// pattern-12
 
 // #include <iostream>
 
@@ -259,27 +248,25 @@
 // int main()
 // {
 //     int n = 4;
-    
+
 //     for (int i = 0; i < n; i++)
 //     {
 //         char ch = 65;
 //         ch = ch + i;
 //         for (int j = 0; j <= i; j++)
-//         {    
-            
+//         {
+
 //             cout << ch << " ";
 //             ch--;
-            
-           
+
 //         }
-        
+
 //         cout << endl;
 //     }
 //     return 0;
 // }
 
-
-//pattern-13
+// pattern-13
 
 // #include<iostream>
 
@@ -302,9 +289,7 @@
 //     return 0;
 // }
 
-
-
-//pattern-14
+// pattern-14
 
 // #include<iostream>
 
@@ -329,8 +314,7 @@
 //     return 0;
 // }
 
-
-//pattern-15
+// pattern-15
 
 // #include<iostream>
 
@@ -359,34 +343,36 @@
 //     return 0;
 // }
 
-
-
-//pattern-16
-
+// pattern-16
 
 #include<iostream>
 
 using namespace std;
 
-int main(){
-    int n =4;
+int main()
+{
+    int n = 4;
 
-    //top
-    for(int i=0; i<n; i++){
-        //spaces
-        for(int j=0; j<n-i-1; i++){
-                cout<<" ";
-            }
-        cout<<"*";
-
-        if(i != 0){
-            //spaces
-            for(int j=0; j<2*i-1; i++){
-                cout<<" ";
-            }
-            cout<<"*";
+    // top
+    for (int i = 0; i < n; i++)
+    {
+        // spaces
+        for (int j = 0; j < n - i - 1; i++)
+        {
+            cout << " ";
         }
-        cout<<endl;
+        cout << "*";
+
+        if (i != 0)
+        {
+            // spaces
+            for (int j = 0; j < 2 * i - 1; i++)
+            {
+                cout << " ";
+            }
+            cout << "*";
+        }
+        cout << endl;
     }
 
     return 0;
